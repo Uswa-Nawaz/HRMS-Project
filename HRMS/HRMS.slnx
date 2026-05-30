@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HRMS.Library/HRMS.Library.csproj" />
+  <Project Path="HRMS.UI/HRMS.UI.csproj" />
+</Solution>
