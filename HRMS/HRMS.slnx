@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="HRMS.Library/HRMS.Library.csproj" />
-  <Project Path="HRMS.UI/HRMS.UI.csproj" />
+  <Project Path="HRMS.Library/HRMS.Library.csproj" Id="a62e7744-dcf2-418f-877a-512490531dc8" />
+  <Project Path="HRMS.UI/HRMS.UI.csproj" Id="a11f6863-f53d-4edf-8af1-4d54c4e19718" />
 </Solution>

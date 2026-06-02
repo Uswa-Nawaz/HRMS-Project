@@ -1,0 +1,6 @@
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.Library\bin\Debug\HRMS.Library.dll
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.Library\bin\Debug\HRMS.Library.pdb
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.Library\obj\Debug\HRMS.Library.csproj.AssemblyReference.cache
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.Library\obj\Debug\HRMS.Library.csproj.CoreCompileInputs.cache
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.Library\obj\Debug\HRMS.Library.dll
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.Library\obj\Debug\HRMS.Library.pdb

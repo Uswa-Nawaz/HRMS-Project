@@ -1,0 +1,5 @@
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.AssemblyReference.cache
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.LoginForm.resources
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Properties.Resources.resources
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.GenerateResource.cache
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.CoreCompileInputs.cache
