@@ -1,6 +1,4 @@
-﻿using HRMS.Library.DL;
-using HRMS.Library.Utility;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using HRMS.Library.DL;
+using HRMS.Library.Utility;
 
 namespace HRMS.UI.Forms
 {
@@ -19,39 +19,55 @@ namespace HRMS.UI.Forms
             InitializeComponent();
         }
 
-        // Runs when the form first loads
         private void LoginForm_Load(object sender, EventArgs e)
         {
-            // Check if this is a brand new system
+            DrawHeaderIcon();
+
             if (!UserDL.IsAdminExists())
             {
-                // No admin found — show init setup first
                 InitSetupForm setup = new InitSetupForm();
-                setup.ShowDialog(); // blocks until setup is done
+                setup.FormClosed += (s, args) =>
+                {
+                    if (!UserDL.IsAdminExists())
+                        Application.Exit();
+                };
+                setup.ShowDialog();
             }
         }
 
-        private void txtPassword_TextChanged(object sender, EventArgs e)
+        // Draws the building icon circle in the header
+        private void DrawHeaderIcon()
         {
-            int strength = Validations.GetPasswordStrength(txtPassword.Text);
-            pbStrength.Value = strength;
+            Bitmap bmp = new Bitmap(48, 48);
+            using (Graphics g = Graphics.FromImage(bmp))
+            {
+                g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
 
-            if (strength == 0)
-            {
-                lblStrength.Text = "Weak";
-                lblStrength.ForeColor = Color.Red;
-            }
+                // Fill with navy so the circle is visible against the header
+                g.Clear(Color.FromArgb(26, 58, 92));
 
-            else if (strength == 1)
-            {
-                lblStrength.Text = "Medium";
-                lblStrength.ForeColor = Color.Orange;
+                // Draw slightly lighter circle
+                using (SolidBrush brush = new SolidBrush(Color.FromArgb(120, 255, 255, 255)))
+                    g.FillEllipse(brush, 1, 1, 45, 45);
+
+                // White border ring
+                using (Pen pen = new Pen(Color.FromArgb(180, 255, 255, 255), 1.5f))
+                    g.DrawEllipse(pen, 1, 1, 45, 45);
+
+                // Letter H
+                using (Font f = new Font("Arial", 20, FontStyle.Bold))
+                using (SolidBrush tb = new SolidBrush(Color.White))
+                {
+                    StringFormat sf = new StringFormat
+                    {
+                        Alignment = StringAlignment.Center,
+                        LineAlignment = StringAlignment.Center
+                    };
+                    g.DrawString("H", f, tb, new RectangleF(0, 0, 48, 48), sf);
+                }
             }
-            else
-            {
-                lblStrength.Text = "Strong";
-                lblStrength.ForeColor = Color.Green;
-            }
+            picIcon.Image = bmp;
+            picIcon.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -61,29 +77,31 @@ namespace HRMS.UI.Forms
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text;
 
-            // Basic empty check
             if (username == "" || password == "")
             {
                 lblError.Text = "Please enter username and password.";
                 return;
             }
 
-            // Ask DL to check credentials
             string role = UserDL.CheckLogin(username, password);
 
             if (role == "Admin")
             {
-                AdminDashboard admin = new AdminDashboard(username);
-                admin.Show();
-                this.Hide();
+                MessageBox.Show(
+                    "Login successful!\nRole: Admin\n(Dashboard coming in next module.)",
+                    "Welcome",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
             }
             else if (role == "Employee")
             {
-                // Get the EmpID so dashboard knows who is logged in
                 string empID = UserDL.GetEmpIDByUsername(username);
-                EmployeeDashboard emp = new EmployeeDashboard(empID, username);
-                emp.Show();
-                this.Hide();
+                MessageBox.Show(
+                    "Login successful!\nRole: Employee\nEmpID: " + empID +
+                    "\n(Dashboard coming in next module.)",
+                    "Welcome",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
             }
             else
             {
@@ -91,9 +109,28 @@ namespace HRMS.UI.Forms
             }
         }
 
-        private void txtPassword_TextChanged_1(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
+            DialogResult confirm = MessageBox.Show(
+                "Are you sure you want to exit?",
+                "Exit HRMS",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
 
+            if (confirm == DialogResult.Yes)
+                Application.Exit();
+        }
+
+        // Show/hide password via checkbox
+        private void chkShow_CheckedChanged(object sender, EventArgs e)
+        {
+            txtPassword.PasswordChar = chkShow.Checked ? '\0' : '*';
+        }
+
+        // Eye button toggles the checkbox
+        private void btnShowPass_Click(object sender, EventArgs e)
+        {
+            chkShow.Checked = !chkShow.Checked;
         }
     }
 }

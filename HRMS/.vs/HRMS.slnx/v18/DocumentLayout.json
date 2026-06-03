@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,20 +19,24 @@
       "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\leavedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\leavedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.library\\bl\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\bl\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\bl\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\scheduledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\scheduledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\employeedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,11 +71,12 @@
               "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-31T02:02:56.596Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "EmployeeDL.cs",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\EmployeeDL.cs",
               "RelativeDocumentMoniker": "HRMS.Library\\DL\\EmployeeDL.cs",
@@ -76,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "DepartmentDL.cs",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\DepartmentDL.cs",
               "RelativeDocumentMoniker": "HRMS.Library\\DL\\DepartmentDL.cs",
@@ -89,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "LeaveDL.cs",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\LeaveDL.cs",
               "RelativeDocumentMoniker": "HRMS.Library\\DL\\LeaveDL.cs",
@@ -98,12 +111,11 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAG0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-31T02:56:21.14Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "SalaryDL.cs",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\SalaryDL.cs",
               "RelativeDocumentMoniker": "HRMS.Library\\DL\\SalaryDL.cs",
@@ -116,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ScheduleDL.cs",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\ScheduleDL.cs",
               "RelativeDocumentMoniker": "HRMS.Library\\DL\\ScheduleDL.cs",
@@ -125,25 +137,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-31T03:04:50.308Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\LoginForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs [Design]",
-              "RelativeToolTip": "HRMS.UI\\Forms\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T10:13:23.436Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "DepartmentBL.cs",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\BL\\DepartmentBL.cs",
               "RelativeDocumentMoniker": "HRMS.Library\\BL\\DepartmentBL.cs",
@@ -152,20 +150,71 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T11:56:49.671Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\LoginForm.cs",
+              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs [Design]",
+              "RelativeToolTip": "HRMS.UI\\Forms\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T18:51:00.773Z",
               "IsPinned": true,
-              "EditorCaption": ""
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InitSetupForm.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs",
+              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\InitSetupForm.cs",
+              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs [Design]",
+              "RelativeToolTip": "HRMS.UI\\Forms\\InitSetupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T01:15:53.808Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InitSetupForm.cs",
+              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs",
+              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\InitSetupForm.cs",
+              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs",
+              "RelativeToolTip": "HRMS.UI\\Forms\\InitSetupForm.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T02:26:08.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs",
               "RelativeDocumentMoniker": "HRMS.UI\\Forms\\LoginForm.cs",
               "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs",
               "RelativeToolTip": "HRMS.UI\\Forms\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T10:18:22.133Z",
+              "WhenOpened": "2026-06-03T00:30:37.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Program.cs",
+              "RelativeDocumentMoniker": "HRMS.UI\\Program.cs",
+              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Program.cs",
+              "RelativeToolTip": "HRMS.UI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T18:49:41.156Z",
               "EditorCaption": ""
             }
           ]
