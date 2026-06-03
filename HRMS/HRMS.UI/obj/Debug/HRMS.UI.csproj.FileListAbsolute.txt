@@ -4,6 +4,7 @@ D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\bin\Debug\HRMS.UI.pdb
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\bin\Debug\HRMS.Library.dll
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\bin\Debug\HRMS.Library.pdb
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.AssemblyReference.cache
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.AdminDashboard.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.InitSetupForm.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.LoginForm.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Properties.Resources.resources

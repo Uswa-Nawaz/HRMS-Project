@@ -21,5 +21,15 @@ namespace HRMS.UI.Forms
         {
 
         }
+
+        private void pnlEmpToolbar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tabPayroll_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
