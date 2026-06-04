@@ -7,52 +7,24 @@
       "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\bl\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\bl\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\leavedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\leavedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\scheduledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\scheduledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\employeedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\employeedl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\salarydl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\salarydl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\departmentdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\departmentdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,103 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDL.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\UserDL.cs",
-              "RelativeDocumentMoniker": "HRMS.Library\\DL\\UserDL.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\UserDL.cs",
-              "RelativeToolTip": "HRMS.Library\\DL\\UserDL.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T02:02:56.596Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeDL.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\EmployeeDL.cs",
-              "RelativeDocumentMoniker": "HRMS.Library\\DL\\EmployeeDL.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\EmployeeDL.cs",
-              "RelativeToolTip": "HRMS.Library\\DL\\EmployeeDL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T02:20:07.391Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DepartmentDL.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\DepartmentDL.cs",
-              "RelativeDocumentMoniker": "HRMS.Library\\DL\\DepartmentDL.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\DepartmentDL.cs",
-              "RelativeToolTip": "HRMS.Library\\DL\\DepartmentDL.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T02:51:15.652Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LeaveDL.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\LeaveDL.cs",
-              "RelativeDocumentMoniker": "HRMS.Library\\DL\\LeaveDL.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\LeaveDL.cs",
-              "RelativeToolTip": "HRMS.Library\\DL\\LeaveDL.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAG0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T02:56:21.14Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SalaryDL.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\SalaryDL.cs",
-              "RelativeDocumentMoniker": "HRMS.Library\\DL\\SalaryDL.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\SalaryDL.cs",
-              "RelativeToolTip": "HRMS.Library\\DL\\SalaryDL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T03:02:07.692Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ScheduleDL.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\ScheduleDL.cs",
-              "RelativeDocumentMoniker": "HRMS.Library\\DL\\ScheduleDL.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\ScheduleDL.cs",
-              "RelativeToolTip": "HRMS.Library\\DL\\ScheduleDL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T03:04:50.308Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DepartmentBL.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\BL\\DepartmentBL.cs",
-              "RelativeDocumentMoniker": "HRMS.Library\\BL\\DepartmentBL.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\BL\\DepartmentBL.cs",
-              "RelativeToolTip": "HRMS.Library\\BL\\DepartmentBL.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T11:56:49.671Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InitSetupForm.cs [Design]",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs",
               "RelativeDocumentMoniker": "HRMS.UI\\Forms\\InitSetupForm.cs",
@@ -171,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs",
               "RelativeDocumentMoniker": "HRMS.UI\\Forms\\LoginForm.cs",
@@ -183,10 +63,6 @@
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AdminDashboard.cs [Design]",
@@ -196,11 +72,16 @@
               "RelativeToolTip": "HRMS.UI\\Forms\\AdminDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T19:56:03.931Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "InitSetupForm.cs",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs",
               "RelativeDocumentMoniker": "HRMS.UI\\Forms\\InitSetupForm.cs",
@@ -226,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Program.cs",
               "RelativeDocumentMoniker": "HRMS.UI\\Program.cs",

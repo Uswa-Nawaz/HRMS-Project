@@ -31,5 +31,10 @@ namespace HRMS.UI.Forms
         {
 
         }
+
+        private void AdminDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
