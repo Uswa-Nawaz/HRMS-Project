@@ -45,6 +45,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.cmbDept = new System.Windows.Forms.ComboBox();
+            this.lblAddError = new System.Windows.Forms.Label();
+            this.btnSaveEmp = new System.Windows.Forms.Button();
+            this.btnCancelAdd = new System.Windows.Forms.Button();
             this.pnlHeader.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,6 +135,7 @@
             this.btnEmpShow.TabIndex = 7;
             this.btnEmpShow.Text = "👁";
             this.btnEmpShow.UseVisualStyleBackColor = true;
+            this.btnEmpShow.Click += new System.EventHandler(this.btnEmpShow_Click);
             // 
             // label5
             // 
@@ -203,12 +207,53 @@
             this.cmbDept.Size = new System.Drawing.Size(168, 28);
             this.cmbDept.TabIndex = 15;
             // 
+            // lblAddError
+            // 
+            this.lblAddError.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddError.ForeColor = System.Drawing.Color.Red;
+            this.lblAddError.Location = new System.Drawing.Point(30, 400);
+            this.lblAddError.Name = "lblAddError";
+            this.lblAddError.Size = new System.Drawing.Size(348, 36);
+            this.lblAddError.TabIndex = 16;
+            this.lblAddError.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnSaveEmp
+            // 
+            this.btnSaveEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(58)))), ((int)(((byte)(92)))));
+            this.btnSaveEmp.FlatAppearance.BorderSize = 0;
+            this.btnSaveEmp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSaveEmp.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveEmp.ForeColor = System.Drawing.Color.White;
+            this.btnSaveEmp.Location = new System.Drawing.Point(30, 444);
+            this.btnSaveEmp.Name = "btnSaveEmp";
+            this.btnSaveEmp.Size = new System.Drawing.Size(230, 36);
+            this.btnSaveEmp.TabIndex = 17;
+            this.btnSaveEmp.Text = "Save Employee";
+            this.btnSaveEmp.UseVisualStyleBackColor = false;
+            this.btnSaveEmp.Click += new System.EventHandler(this.btnSaveEmp_Click);
+            // 
+            // btnCancelAdd
+            // 
+            this.btnCancelAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelAdd.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelAdd.ForeColor = System.Drawing.Color.Red;
+            this.btnCancelAdd.Location = new System.Drawing.Point(270, 444);
+            this.btnCancelAdd.Name = "btnCancelAdd";
+            this.btnCancelAdd.Size = new System.Drawing.Size(108, 36);
+            this.btnCancelAdd.TabIndex = 18;
+            this.btnCancelAdd.Text = "Cancel";
+            this.btnCancelAdd.UseVisualStyleBackColor = true;
+            this.btnCancelAdd.Click += new System.EventHandler(this.btnCancelAdd_Click);
+            // 
             // AddEmployeeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(402, 513);
+            this.Controls.Add(this.btnCancelAdd);
+            this.Controls.Add(this.btnSaveEmp);
+            this.Controls.Add(this.lblAddError);
             this.Controls.Add(this.cmbDept);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtEmpSalary);
@@ -230,8 +275,9 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(420, 560);
             this.Name = "AddEmployeeForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add New Employee";
+            this.Load += new System.EventHandler(this.AddEmployeeForm_Load);
             this.pnlHeader.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -257,5 +303,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox cmbDept;
+        private System.Windows.Forms.Label lblAddError;
+        private System.Windows.Forms.Button btnSaveEmp;
+        private System.Windows.Forms.Button btnCancelAdd;
     }
 }

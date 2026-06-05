@@ -70,7 +70,7 @@ namespace HRMS.Library.DL
         {
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                string query = "SELECT * FROM Departments ORDER BY DeptName";
+                string query = "SELECT * FROM Departments ORDER BY DeptName ASC";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);

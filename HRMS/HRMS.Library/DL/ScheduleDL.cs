@@ -17,32 +17,35 @@ namespace HRMS.Library.DL
                                             string startTime, string endTime)
         {
             if (string.IsNullOrWhiteSpace(empID) ||
-                string.IsNullOrWhiteSpace(shiftName) ||
-                string.IsNullOrWhiteSpace(startTime) ||
-                string.IsNullOrWhiteSpace(endTime))
+    string.IsNullOrWhiteSpace(shiftName) ||
+    string.IsNullOrWhiteSpace(startTime) ||
+    string.IsNullOrWhiteSpace(endTime))
                 return "All fields are required.";
 
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                // Remove old schedule first if exists
+                conn.Open(); // open ONCE, use for both commands
+
+                // Delete old schedule if exists
                 string deleteQuery = "DELETE FROM WorkSchedules WHERE EmpID = @id";
                 SqlCommand deleteCmd = new SqlCommand(deleteQuery, conn);
                 deleteCmd.Parameters.AddWithValue("@id", empID);
-                conn.Open();
                 deleteCmd.ExecuteNonQuery();
 
-                // Insert new schedule
-                string query = @"INSERT INTO WorkSchedules
-                                 (EmpID, ShiftName, StartTime, EndTime)
-                                 VALUES (@id, @shift, @start, @end)";
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@id", empID);
-                cmd.Parameters.AddWithValue("@shift", shiftName);
-                cmd.Parameters.AddWithValue("@start", startTime);
-                cmd.Parameters.AddWithValue("@end", endTime);
-                cmd.ExecuteNonQuery();
+                // Insert new schedule on same open connection
+                string insertQuery = @"INSERT INTO WorkSchedules
+                               (EmpID, ShiftName, StartTime, EndTime)
+                               VALUES (@id, @shift, @start, @end)";
+                SqlCommand insertCmd = new SqlCommand(insertQuery, conn);
+                insertCmd.Parameters.AddWithValue("@id", empID);
+                insertCmd.Parameters.AddWithValue("@shift", shiftName);
+                insertCmd.Parameters.AddWithValue("@start", startTime);
+                insertCmd.Parameters.AddWithValue("@end", endTime);
+                insertCmd.ExecuteNonQuery();
+
                 return "True";
             }
+
         }
 
         // Get schedule for one employee

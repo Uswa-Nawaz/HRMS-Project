@@ -22,9 +22,6 @@ namespace HRMS.UI.Forms
         private void LoginForm_Load(object sender, EventArgs e)
         {
             
-            
-            
-            
             DrawHeaderIcon();
 
             if (!UserDL.IsAdminExists())
@@ -91,21 +88,18 @@ namespace HRMS.UI.Forms
 
             if (role == "Admin")
             {
-                MessageBox.Show(
-                    "Login successful!\nRole: Admin\n(Dashboard coming in next module.)",
-                    "Welcome",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                AdminDashboard admin = new AdminDashboard(username);
+                admin.Show();
+                this.Hide();  // hide login
             }
             else if (role == "Employee")
             {
                 string empID = UserDL.GetEmpIDByUsername(username);
-                MessageBox.Show(
-                    "Login successful!\nRole: Employee\nEmpID: " + empID +
-                    "\n(Dashboard coming in next module.)",
-                    "Welcome",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+                // EmployeeDashboard comes next module
+                MessageBox.Show("Employee login works! EmpID: " + empID +
+                                "\n(Employee Dashboard coming next.)",
+                                "Welcome", MessageBoxButtons.OK,
+                                MessageBoxIcon.Information);
             }
             else
             {

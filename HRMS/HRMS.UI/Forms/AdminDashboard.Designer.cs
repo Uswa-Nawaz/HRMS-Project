@@ -56,7 +56,6 @@
             this.dgvPayroll = new System.Windows.Forms.DataGridView();
             this.pnlPayrollToolbar = new System.Windows.Forms.Panel();
             this.btnGenSlip = new System.Windows.Forms.Button();
-            this.txtMonth = new System.Windows.Forms.TextBox();
             this.lblMonth = new System.Windows.Forms.Label();
             this.txtPayEmpID = new System.Windows.Forms.TextBox();
             this.lblPayEmp = new System.Windows.Forms.Label();
@@ -78,6 +77,7 @@
             this.lblShift = new System.Windows.Forms.Label();
             this.txtSchedEmp = new System.Windows.Forms.TextBox();
             this.lblSchedEmp = new System.Windows.Forms.Label();
+            this.cmbMonth = new System.Windows.Forms.ComboBox();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.tabMain.SuspendLayout();
@@ -442,8 +442,8 @@
             // 
             // pnlPayrollToolbar
             // 
+            this.pnlPayrollToolbar.Controls.Add(this.cmbMonth);
             this.pnlPayrollToolbar.Controls.Add(this.btnGenSlip);
-            this.pnlPayrollToolbar.Controls.Add(this.txtMonth);
             this.pnlPayrollToolbar.Controls.Add(this.lblMonth);
             this.pnlPayrollToolbar.Controls.Add(this.txtPayEmpID);
             this.pnlPayrollToolbar.Controls.Add(this.lblPayEmp);
@@ -468,14 +468,6 @@
             this.btnGenSlip.Text = "Generate Slip";
             this.btnGenSlip.UseVisualStyleBackColor = false;
             this.btnGenSlip.Click += new System.EventHandler(this.btnGenSlip_Click);
-            // 
-            // txtMonth
-            // 
-            this.txtMonth.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMonth.Location = new System.Drawing.Point(274, 10);
-            this.txtMonth.Name = "txtMonth";
-            this.txtMonth.Size = new System.Drawing.Size(110, 27);
-            this.txtMonth.TabIndex = 3;
             // 
             // lblMonth
             // 
@@ -716,6 +708,16 @@
             this.lblSchedEmp.TabIndex = 0;
             this.lblSchedEmp.Text = "Emp ID:";
             // 
+            // cmbMonth
+            // 
+            this.cmbMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMonth.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMonth.FormattingEnabled = true;
+            this.cmbMonth.Location = new System.Drawing.Point(274, 10);
+            this.cmbMonth.Name = "cmbMonth";
+            this.cmbMonth.Size = new System.Drawing.Size(110, 28);
+            this.cmbMonth.TabIndex = 5;
+            // 
             // AdminDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -790,7 +792,6 @@
         private System.Windows.Forms.Label lblMonth;
         private System.Windows.Forms.TextBox txtPayEmpID;
         private System.Windows.Forms.Button btnGenSlip;
-        private System.Windows.Forms.TextBox txtMonth;
         private System.Windows.Forms.DataGridView dgvPayroll;
         private System.Windows.Forms.TabPage tabLeaves;
         private System.Windows.Forms.Panel panel1;
@@ -809,5 +810,6 @@
         private System.Windows.Forms.Label lblEnd;
         private System.Windows.Forms.Button btnAssign;
         private System.Windows.Forms.DataGridView dgvSchedules;
+        private System.Windows.Forms.ComboBox cmbMonth;
     }
 }

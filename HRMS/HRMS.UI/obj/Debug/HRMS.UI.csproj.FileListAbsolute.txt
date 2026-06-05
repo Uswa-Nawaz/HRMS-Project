@@ -13,3 +13,5 @@ D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.C
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.Up2Date
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.exe
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.pdb
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.SubForms.AddEmployeeForm.resources
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.SubForms.UpdateEmployeeForm.resources

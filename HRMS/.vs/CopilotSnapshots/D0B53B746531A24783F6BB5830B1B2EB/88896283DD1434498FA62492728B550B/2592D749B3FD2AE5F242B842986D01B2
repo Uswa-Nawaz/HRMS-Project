@@ -50,15 +50,6 @@ namespace HRMS.UI.Forms
             LoadDepartments();
             LoadLeaves();
             LoadSchedules();
-
-            // Populate month dropdown
-            string[] months = {
-    "January","February","March","April","May","June",
-    "July","August","September","October","November","December"
-};
-            cmbMonth.Items.AddRange(months);
-            cmbMonth.SelectedIndex = 0;
-
         }
 
         private void dgvEmployees_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -294,7 +285,7 @@ namespace HRMS.UI.Forms
         private void btnGenSlip_Click(object sender, EventArgs e)
         {
             string empID = txtPayEmpID.Text.Trim();
-            string month = cmbMonth.SelectedItem.ToString();
+            string month = txtMonth.Text.Trim();
 
             if (empID == "" || month == "")
             {
