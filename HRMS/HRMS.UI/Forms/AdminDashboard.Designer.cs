@@ -55,6 +55,7 @@
             this.tabPayroll = new System.Windows.Forms.TabPage();
             this.dgvPayroll = new System.Windows.Forms.DataGridView();
             this.pnlPayrollToolbar = new System.Windows.Forms.Panel();
+            this.cmbMonth = new System.Windows.Forms.ComboBox();
             this.btnGenSlip = new System.Windows.Forms.Button();
             this.lblMonth = new System.Windows.Forms.Label();
             this.txtPayEmpID = new System.Windows.Forms.TextBox();
@@ -77,7 +78,6 @@
             this.lblShift = new System.Windows.Forms.Label();
             this.txtSchedEmp = new System.Windows.Forms.TextBox();
             this.lblSchedEmp = new System.Windows.Forms.Label();
-            this.cmbMonth = new System.Windows.Forms.ComboBox();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.tabMain.SuspendLayout();
@@ -454,6 +454,17 @@
             this.pnlPayrollToolbar.Size = new System.Drawing.Size(928, 46);
             this.pnlPayrollToolbar.TabIndex = 0;
             // 
+            // cmbMonth
+            // 
+            this.cmbMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMonth.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMonth.FormattingEnabled = true;
+            this.cmbMonth.Location = new System.Drawing.Point(274, 10);
+            this.cmbMonth.Name = "cmbMonth";
+            this.cmbMonth.Size = new System.Drawing.Size(110, 28);
+            this.cmbMonth.TabIndex = 5;
+            this.cmbMonth.SelectedIndexChanged += new System.EventHandler(this.cmbMonth_SelectedIndexChanged);
+            // 
             // btnGenSlip
             // 
             this.btnGenSlip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(58)))), ((int)(((byte)(92)))));
@@ -707,16 +718,6 @@
             this.lblSchedEmp.Size = new System.Drawing.Size(65, 18);
             this.lblSchedEmp.TabIndex = 0;
             this.lblSchedEmp.Text = "Emp ID:";
-            // 
-            // cmbMonth
-            // 
-            this.cmbMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbMonth.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbMonth.FormattingEnabled = true;
-            this.cmbMonth.Location = new System.Drawing.Point(274, 10);
-            this.cmbMonth.Name = "cmbMonth";
-            this.cmbMonth.Size = new System.Drawing.Size(110, 28);
-            this.cmbMonth.TabIndex = 5;
             // 
             // AdminDashboard
             // 

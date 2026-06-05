@@ -50,14 +50,7 @@ namespace HRMS.UI.Forms
             LoadDepartments();
             LoadLeaves();
             LoadSchedules();
-
-            // Populate month dropdown
-            string[] months = {
-    "January","February","March","April","May","June",
-    "July","August","September","October","November","December"
-};
-            cmbMonth.Items.AddRange(months);
-            cmbMonth.SelectedIndex = 0;
+            LoadMonths();
 
         }
 
@@ -294,7 +287,9 @@ namespace HRMS.UI.Forms
         private void btnGenSlip_Click(object sender, EventArgs e)
         {
             string empID = txtPayEmpID.Text.Trim();
-            string month = cmbMonth.SelectedItem.ToString();
+            string month = cmbMonth.SelectedItem != null
+               ? cmbMonth.SelectedItem.ToString()
+               : "";
 
             if (empID == "" || month == "")
             {
@@ -339,6 +334,17 @@ namespace HRMS.UI.Forms
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Warning);
             }
+        }
+
+        private void LoadMonths()
+        {
+            string[] months = {
+        "January", "February", "March", "April",
+        "May", "June", "July", "August",
+        "September", "October", "November", "December"
+    };
+            cmbMonth.Items.AddRange(months);
+            cmbMonth.SelectedIndex = DateTime.Now.Month - 1; // default to current month
         }
 
         private void LoadLeaves()
@@ -478,5 +484,9 @@ namespace HRMS.UI.Forms
             dgv.GridColor = Color.FromArgb(220, 225, 235);
         }
 
+        private void cmbMonth_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

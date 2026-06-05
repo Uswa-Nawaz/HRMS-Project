@@ -14,38 +14,51 @@ namespace HRMS.Library.DL
 
         // Assign shift to employee
         public static string AssignSchedule(string empID, string shiftName,
-                                            string startTime, string endTime)
+                                    string startTime, string endTime)
         {
             if (string.IsNullOrWhiteSpace(empID) ||
-    string.IsNullOrWhiteSpace(shiftName) ||
-    string.IsNullOrWhiteSpace(startTime) ||
-    string.IsNullOrWhiteSpace(endTime))
+                string.IsNullOrWhiteSpace(shiftName) ||
+                string.IsNullOrWhiteSpace(startTime) ||
+                string.IsNullOrWhiteSpace(endTime))
                 return "All fields are required.";
 
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                conn.Open(); // open ONCE, use for both commands
+                conn.Open(); // open once, keep open for both commands
 
-                // Delete old schedule if exists
-                string deleteQuery = "DELETE FROM WorkSchedules WHERE EmpID = @id";
-                SqlCommand deleteCmd = new SqlCommand(deleteQuery, conn);
-                deleteCmd.Parameters.AddWithValue("@id", empID);
-                deleteCmd.ExecuteNonQuery();
+                using (SqlTransaction transaction = conn.BeginTransaction())
+                {
+                    try
+                    {
+                        // Step 1: remove existing schedule if any
+                        string deleteQuery = "DELETE FROM WorkSchedules WHERE EmpID = @id";
+                        SqlCommand deleteCmd = new SqlCommand(deleteQuery, conn, transaction);
+                        deleteCmd.Parameters.AddWithValue("@id", empID);
+                        deleteCmd.ExecuteNonQuery();
 
-                // Insert new schedule on same open connection
-                string insertQuery = @"INSERT INTO WorkSchedules
-                               (EmpID, ShiftName, StartTime, EndTime)
-                               VALUES (@id, @shift, @start, @end)";
-                SqlCommand insertCmd = new SqlCommand(insertQuery, conn);
-                insertCmd.Parameters.AddWithValue("@id", empID);
-                insertCmd.Parameters.AddWithValue("@shift", shiftName);
-                insertCmd.Parameters.AddWithValue("@start", startTime);
-                insertCmd.Parameters.AddWithValue("@end", endTime);
-                insertCmd.ExecuteNonQuery();
+                        // Step 2: insert new schedule
+                        string insertQuery = @"INSERT INTO WorkSchedules
+                                       (EmpID, ShiftName, StartTime, EndTime)
+                                       VALUES (@id, @shift, @start, @end)";
+                        SqlCommand insertCmd = new SqlCommand(insertQuery, conn, transaction);
+                        insertCmd.Parameters.AddWithValue("@id", empID);
+                        insertCmd.Parameters.AddWithValue("@shift", shiftName);
+                        insertCmd.Parameters.AddWithValue("@start", startTime);
+                        insertCmd.Parameters.AddWithValue("@end", endTime);
+                        insertCmd.ExecuteNonQuery();
 
-                return "True";
+                        transaction.Commit();
+                        return "True";
+                    }
+                    catch (SqlException ex)
+                    {
+                        transaction.Rollback();
+                        if (ex.Message.Contains("FOREIGN KEY"))
+                            return "Employee ID does not exist.";
+                        return "Database error: " + ex.Message;
+                    }
+                }
             }
-
         }
 
         // Get schedule for one employee
