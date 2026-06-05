@@ -67,17 +67,17 @@
             this.btnReject = new System.Windows.Forms.Button();
             this.btnApprove = new System.Windows.Forms.Button();
             this.tabSchedules = new System.Windows.Forms.TabPage();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lblSchedEmp = new System.Windows.Forms.Label();
-            this.txtSchedEmp = new System.Windows.Forms.TextBox();
-            this.lblShift = new System.Windows.Forms.Label();
-            this.txtShift = new System.Windows.Forms.TextBox();
-            this.lblStart = new System.Windows.Forms.Label();
-            this.txtStart = new System.Windows.Forms.TextBox();
-            this.lblEnd = new System.Windows.Forms.Label();
-            this.txtEnd = new System.Windows.Forms.TextBox();
-            this.btnAssign = new System.Windows.Forms.Button();
             this.dgvSchedules = new System.Windows.Forms.DataGridView();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnAssign = new System.Windows.Forms.Button();
+            this.txtEnd = new System.Windows.Forms.TextBox();
+            this.lblEnd = new System.Windows.Forms.Label();
+            this.txtStart = new System.Windows.Forms.TextBox();
+            this.lblStart = new System.Windows.Forms.Label();
+            this.txtShift = new System.Windows.Forms.TextBox();
+            this.lblShift = new System.Windows.Forms.Label();
+            this.txtSchedEmp = new System.Windows.Forms.TextBox();
+            this.lblSchedEmp = new System.Windows.Forms.Label();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.tabMain.SuspendLayout();
@@ -95,8 +95,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvLeaves)).BeginInit();
             this.panel1.SuspendLayout();
             this.tabSchedules.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSchedules)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlHeader
@@ -126,6 +126,7 @@
             this.btnLogout.TabIndex = 3;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // lblWelcome
             // 
@@ -210,6 +211,7 @@
             this.btnPromote.TabIndex = 2;
             this.btnPromote.Text = "Promote / Demote";
             this.btnPromote.UseVisualStyleBackColor = true;
+            this.btnPromote.Click += new System.EventHandler(this.btnPromote_Click);
             // 
             // btnDeleteEmp
             // 
@@ -222,6 +224,7 @@
             this.btnDeleteEmp.TabIndex = 1;
             this.btnDeleteEmp.Text = "Delete Selected";
             this.btnDeleteEmp.UseVisualStyleBackColor = true;
+            this.btnDeleteEmp.Click += new System.EventHandler(this.btnDeleteEmp_Click);
             // 
             // btnUpdateEmp
             // 
@@ -233,6 +236,7 @@
             this.btnUpdateEmp.TabIndex = 0;
             this.btnUpdateEmp.Text = "Update Selected";
             this.btnUpdateEmp.UseVisualStyleBackColor = true;
+            this.btnUpdateEmp.Click += new System.EventHandler(this.btnUpdateEmp_Click);
             // 
             // dgvEmployees
             // 
@@ -253,6 +257,7 @@
             this.dgvEmployees.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEmployees.Size = new System.Drawing.Size(928, 445);
             this.dgvEmployees.TabIndex = 1;
+            this.dgvEmployees.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmployees_CellContentClick);
             // 
             // pnlEmpToolbar
             // 
@@ -278,6 +283,7 @@
             this.btnSearch.TabIndex = 3;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // txtSearch
             // 
@@ -297,6 +303,7 @@
             this.btnRefresh.TabIndex = 1;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnAddEmp
             // 
@@ -311,6 +318,7 @@
             this.btnAddEmp.TabIndex = 0;
             this.btnAddEmp.Text = "+ Add Employee";
             this.btnAddEmp.UseVisualStyleBackColor = false;
+            this.btnAddEmp.Click += new System.EventHandler(this.btnAddEmp_Click);
             // 
             // tabDepartments
             // 
@@ -366,6 +374,7 @@
             this.btnDelDept.TabIndex = 3;
             this.btnDelDept.Text = "Delete";
             this.btnDelDept.UseVisualStyleBackColor = true;
+            this.btnDelDept.Click += new System.EventHandler(this.btnDelDept_Click);
             // 
             // btnAddDept
             // 
@@ -380,6 +389,7 @@
             this.btnAddDept.TabIndex = 2;
             this.btnAddDept.Text = "+ Add";
             this.btnAddDept.UseVisualStyleBackColor = false;
+            this.btnAddDept.Click += new System.EventHandler(this.btnAddDept_Click);
             // 
             // txtDeptName
             // 
@@ -457,6 +467,7 @@
             this.btnGenSlip.TabIndex = 4;
             this.btnGenSlip.Text = "Generate Slip";
             this.btnGenSlip.UseVisualStyleBackColor = false;
+            this.btnGenSlip.Click += new System.EventHandler(this.btnGenSlip_Click);
             // 
             // txtMonth
             // 
@@ -545,6 +556,7 @@
             this.btnRefLeave.TabIndex = 2;
             this.btnRefLeave.Text = "Refresh";
             this.btnRefLeave.UseVisualStyleBackColor = true;
+            this.btnRefLeave.Click += new System.EventHandler(this.btnRefLeave_Click);
             // 
             // btnReject
             // 
@@ -559,6 +571,7 @@
             this.btnReject.TabIndex = 1;
             this.btnReject.Text = "Reject";
             this.btnReject.UseVisualStyleBackColor = false;
+            this.btnReject.Click += new System.EventHandler(this.btnReject_Click);
             // 
             // btnApprove
             // 
@@ -573,6 +586,7 @@
             this.btnApprove.TabIndex = 0;
             this.btnApprove.Text = "Approve";
             this.btnApprove.UseVisualStyleBackColor = false;
+            this.btnApprove.Click += new System.EventHandler(this.btnApprove_Click);
             // 
             // tabSchedules
             // 
@@ -585,6 +599,23 @@
             this.tabSchedules.TabIndex = 0;
             this.tabSchedules.Text = "Schedules";
             this.tabSchedules.UseVisualStyleBackColor = true;
+            // 
+            // dgvSchedules
+            // 
+            this.dgvSchedules.AllowUserToAddRows = false;
+            this.dgvSchedules.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvSchedules.BackgroundColor = System.Drawing.Color.White;
+            this.dgvSchedules.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvSchedules.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSchedules.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvSchedules.Location = new System.Drawing.Point(0, 46);
+            this.dgvSchedules.Name = "dgvSchedules";
+            this.dgvSchedules.ReadOnly = true;
+            this.dgvSchedules.RowHeadersVisible = false;
+            this.dgvSchedules.RowHeadersWidth = 51;
+            this.dgvSchedules.RowTemplate.Height = 24;
+            this.dgvSchedules.Size = new System.Drawing.Size(934, 451);
+            this.dgvSchedules.TabIndex = 1;
             // 
             // panel2
             // 
@@ -604,72 +635,6 @@
             this.panel2.Size = new System.Drawing.Size(934, 46);
             this.panel2.TabIndex = 0;
             // 
-            // lblSchedEmp
-            // 
-            this.lblSchedEmp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSchedEmp.Location = new System.Drawing.Point(8, 14);
-            this.lblSchedEmp.Name = "lblSchedEmp";
-            this.lblSchedEmp.Size = new System.Drawing.Size(65, 18);
-            this.lblSchedEmp.TabIndex = 0;
-            this.lblSchedEmp.Text = "Emp ID:";
-            // 
-            // txtSchedEmp
-            // 
-            this.txtSchedEmp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSchedEmp.Location = new System.Drawing.Point(66, 10);
-            this.txtSchedEmp.Name = "txtSchedEmp";
-            this.txtSchedEmp.Size = new System.Drawing.Size(90, 27);
-            this.txtSchedEmp.TabIndex = 1;
-            // 
-            // lblShift
-            // 
-            this.lblShift.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblShift.Location = new System.Drawing.Point(164, 14);
-            this.lblShift.Name = "lblShift";
-            this.lblShift.Size = new System.Drawing.Size(44, 18);
-            this.lblShift.TabIndex = 2;
-            this.lblShift.Text = "Shift:";
-            // 
-            // txtShift
-            // 
-            this.txtShift.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtShift.Location = new System.Drawing.Point(204, 10);
-            this.txtShift.Name = "txtShift";
-            this.txtShift.Size = new System.Drawing.Size(110, 27);
-            this.txtShift.TabIndex = 3;
-            // 
-            // lblStart
-            // 
-            this.lblStart.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStart.Location = new System.Drawing.Point(322, 14);
-            this.lblStart.Name = "lblStart";
-            this.lblStart.Size = new System.Drawing.Size(44, 18);
-            this.lblStart.TabIndex = 4;
-            this.lblStart.Text = "Start:";
-            // 
-            // txtStart
-            // 
-            this.txtStart.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStart.Location = new System.Drawing.Point(364, 10);
-            this.txtStart.Name = "txtStart";
-            this.txtStart.Size = new System.Drawing.Size(70, 27);
-            this.txtStart.TabIndex = 5;
-            // 
-            // lblEnd
-            // 
-            this.lblEnd.Location = new System.Drawing.Point(442, 14);
-            this.lblEnd.Name = "lblEnd";
-            this.lblEnd.Size = new System.Drawing.Size(40, 18);
-            this.lblEnd.TabIndex = 6;
-            this.lblEnd.Text = "End:";
-            // 
-            // txtEnd
-            // 
-            this.txtEnd.Location = new System.Drawing.Point(476, 10);
-            this.txtEnd.Name = "txtEnd";
-            this.txtEnd.Size = new System.Drawing.Size(70, 27);
-            this.txtEnd.TabIndex = 7;
-            // 
             // btnAssign
             // 
             this.btnAssign.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(58)))), ((int)(((byte)(92)))));
@@ -683,23 +648,73 @@
             this.btnAssign.TabIndex = 8;
             this.btnAssign.Text = "Assign";
             this.btnAssign.UseVisualStyleBackColor = false;
+            this.btnAssign.Click += new System.EventHandler(this.btnAssign_Click);
             // 
-            // dgvSchedules
+            // txtEnd
             // 
-            this.dgvSchedules.AllowUserToAddRows = false;
-            this.dgvSchedules.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvSchedules.BackgroundColor = System.Drawing.Color.White;
-            this.dgvSchedules.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvSchedules.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSchedules.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvSchedules.Location = new System.Drawing.Point(0, 46);
-            this.dgvSchedules.Name = "dgvSchedules";
-            this.dgvSchedules.ReadOnly = true;
-            this.dgvSchedules.RowHeadersVisible = false;
-            this.dgvSchedules.RowHeadersWidth = 51;
-            this.dgvSchedules.RowTemplate.Height = 24;
-            this.dgvSchedules.Size = new System.Drawing.Size(934, 451);
-            this.dgvSchedules.TabIndex = 1;
+            this.txtEnd.Location = new System.Drawing.Point(476, 10);
+            this.txtEnd.Name = "txtEnd";
+            this.txtEnd.Size = new System.Drawing.Size(70, 27);
+            this.txtEnd.TabIndex = 7;
+            // 
+            // lblEnd
+            // 
+            this.lblEnd.Location = new System.Drawing.Point(442, 14);
+            this.lblEnd.Name = "lblEnd";
+            this.lblEnd.Size = new System.Drawing.Size(40, 18);
+            this.lblEnd.TabIndex = 6;
+            this.lblEnd.Text = "End:";
+            // 
+            // txtStart
+            // 
+            this.txtStart.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStart.Location = new System.Drawing.Point(364, 10);
+            this.txtStart.Name = "txtStart";
+            this.txtStart.Size = new System.Drawing.Size(70, 27);
+            this.txtStart.TabIndex = 5;
+            // 
+            // lblStart
+            // 
+            this.lblStart.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStart.Location = new System.Drawing.Point(322, 14);
+            this.lblStart.Name = "lblStart";
+            this.lblStart.Size = new System.Drawing.Size(44, 18);
+            this.lblStart.TabIndex = 4;
+            this.lblStart.Text = "Start:";
+            // 
+            // txtShift
+            // 
+            this.txtShift.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShift.Location = new System.Drawing.Point(204, 10);
+            this.txtShift.Name = "txtShift";
+            this.txtShift.Size = new System.Drawing.Size(110, 27);
+            this.txtShift.TabIndex = 3;
+            // 
+            // lblShift
+            // 
+            this.lblShift.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblShift.Location = new System.Drawing.Point(164, 14);
+            this.lblShift.Name = "lblShift";
+            this.lblShift.Size = new System.Drawing.Size(44, 18);
+            this.lblShift.TabIndex = 2;
+            this.lblShift.Text = "Shift:";
+            // 
+            // txtSchedEmp
+            // 
+            this.txtSchedEmp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSchedEmp.Location = new System.Drawing.Point(66, 10);
+            this.txtSchedEmp.Name = "txtSchedEmp";
+            this.txtSchedEmp.Size = new System.Drawing.Size(90, 27);
+            this.txtSchedEmp.TabIndex = 1;
+            // 
+            // lblSchedEmp
+            // 
+            this.lblSchedEmp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSchedEmp.Location = new System.Drawing.Point(8, 14);
+            this.lblSchedEmp.Name = "lblSchedEmp";
+            this.lblSchedEmp.Size = new System.Drawing.Size(65, 18);
+            this.lblSchedEmp.TabIndex = 0;
+            this.lblSchedEmp.Text = "Emp ID:";
             // 
             // AdminDashboard
             // 
@@ -735,9 +750,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvLeaves)).EndInit();
             this.panel1.ResumeLayout(false);
             this.tabSchedules.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSchedules)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSchedules)).EndInit();
             this.ResumeLayout(false);
 
         }
