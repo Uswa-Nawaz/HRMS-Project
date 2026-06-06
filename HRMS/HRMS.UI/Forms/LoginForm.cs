@@ -95,11 +95,17 @@ namespace HRMS.UI.Forms
             else if (role == "Employee")
             {
                 string empID = UserDL.GetEmpIDByUsername(username);
-                // EmployeeDashboard comes next module
-                MessageBox.Show("Employee login works! EmpID: " + empID +
-                                "\n(Employee Dashboard coming next.)",
-                                "Welcome", MessageBoxButtons.OK,
-                                MessageBoxIcon.Information);
+
+                if (empID == null)
+                {
+                    lblError.Text = "Employee record not found. Contact admin.";
+                    return;
+                }
+
+                EmployeeDashboard empDash =
+                    new EmployeeDashboard(empID, username);
+                empDash.Show();
+                this.Hide();
             }
             else
             {
