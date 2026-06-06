@@ -5,10 +5,12 @@ D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\bin\Debug\HRMS.Library.dll
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\bin\Debug\HRMS.Library.pdb
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.AssemblyReference.cache
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.AdminDashboard.resources
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.EmployeeDashboard.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.InitSetupForm.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.LoginForm.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.SubForms.AddEmployeeForm.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.SubForms.PromoteDemoteForm.resources
+D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.SubForms.SalarySlipForm.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.SubForms.UpdateEmployeeForm.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Properties.Resources.resources
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.GenerateResource.cache
@@ -16,4 +18,3 @@ D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.C
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.csproj.Up2Date
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.exe
 D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.pdb
-D:\Projects\Second-Semester\HRMS-Project\HRMS\HRMS.UI\obj\Debug\HRMS.UI.Forms.SubForms.SalarySlipForm.resources

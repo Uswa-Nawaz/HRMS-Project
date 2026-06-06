@@ -3,60 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\employeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\subforms\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\subforms\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\subforms\\salaryslipform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\subforms\\salaryslipform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\subforms\\salaryslipform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\subforms\\salaryslipform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\subforms\\promotedemoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\subforms\\promotedemoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\subforms\\updateemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\subforms\\updateemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\subforms\\promotedemoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\subforms\\promotedemoteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|d:\\projects\\second-semester\\hrms-project\\hrms\\hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\initsetupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.ui\\forms\\subforms\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F6863-F53D-4EDF-8AF1-4D54C4E19718}|HRMS.UI\\HRMS.UI.csproj|solutionrelative:hrms.ui\\forms\\subforms\\addemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\hrms.library\\dl\\scheduledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A62E7744-DCF2-418F-877A-512490531DC8}|HRMS.Library\\HRMS.Library.csproj|solutionrelative:hrms.library\\dl\\scheduledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,83 +26,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InitSetupForm.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\InitSetupForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs [Design]",
-              "RelativeToolTip": "HRMS.UI\\Forms\\InitSetupForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T20:45:20.51Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\LoginForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs [Design]",
-              "RelativeToolTip": "HRMS.UI\\Forms\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T20:45:22.088Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\AdminDashboard.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\AdminDashboard.cs [Design]*",
-              "RelativeToolTip": "HRMS.UI\\Forms\\AdminDashboard.cs [Design]*",
+              "Title": "EmployeeDashboard.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\EmployeeDashboard.cs",
+              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\EmployeeDashboard.cs",
+              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\EmployeeDashboard.cs [Design]",
+              "RelativeToolTip": "HRMS.UI\\Forms\\EmployeeDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T20:45:24.075Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddEmployeeForm.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\AddEmployeeForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\SubForms\\AddEmployeeForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\AddEmployeeForm.cs [Design]",
-              "RelativeToolTip": "HRMS.UI\\Forms\\SubForms\\AddEmployeeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T20:45:26.93Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateEmployeeForm.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\UpdateEmployeeForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\SubForms\\UpdateEmployeeForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\UpdateEmployeeForm.cs [Design]",
-              "RelativeToolTip": "HRMS.UI\\Forms\\SubForms\\UpdateEmployeeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T20:45:28.306Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PromoteDemoteForm.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\PromoteDemoteForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\SubForms\\PromoteDemoteForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\PromoteDemoteForm.cs [Design]",
-              "RelativeToolTip": "HRMS.UI\\Forms\\SubForms\\PromoteDemoteForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T04:56:37.484Z",
+              "WhenOpened": "2026-06-06T11:51:36.903Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
@@ -152,105 +47,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SalarySlipForm.cs [Design]",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\SalarySlipForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\SubForms\\SalarySlipForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\SalarySlipForm.cs [Design]",
-              "RelativeToolTip": "HRMS.UI\\Forms\\SubForms\\SalarySlipForm.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDashboard.cs",
+              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\EmployeeDashboard.cs",
+              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\EmployeeDashboard.cs",
+              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\EmployeeDashboard.cs",
+              "RelativeToolTip": "HRMS.UI\\Forms\\EmployeeDashboard.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAQwFQBAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T08:26:58.266Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\LoginForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "HRMS.UI\\Forms\\LoginForm.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAcwIcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T04:56:55.675Z",
+              "WhenOpened": "2026-06-06T14:22:01.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminDashboard.cs",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Program.cs",
+              "RelativeDocumentMoniker": "HRMS.UI\\Program.cs",
+              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Program.cs",
+              "RelativeToolTip": "HRMS.UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T11:56:57.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminDashboard.cs [Design]",
               "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\AdminDashboard.cs",
               "RelativeDocumentMoniker": "HRMS.UI\\Forms\\AdminDashboard.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\AdminDashboard.cs*",
-              "RelativeToolTip": "HRMS.UI\\Forms\\AdminDashboard.cs*",
-              "ViewState": "AgIAALcBAAAAAAAAAAAUwMkBAAA8AAAAAAAAAA==",
+              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "HRMS.UI\\Forms\\AdminDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T20:53:15.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SalarySlipForm.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\SalarySlipForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\SubForms\\SalarySlipForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\SalarySlipForm.cs",
-              "RelativeToolTip": "HRMS.UI\\Forms\\SubForms\\SalarySlipForm.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAArwEEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T09:35:56.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PromoteDemoteForm.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\PromoteDemoteForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\SubForms\\PromoteDemoteForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\PromoteDemoteForm.cs",
-              "RelativeToolTip": "HRMS.UI\\Forms\\SubForms\\PromoteDemoteForm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAIAzwFIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T06:12:48.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InitSetupForm.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\InitSetupForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\InitSetupForm.cs",
-              "RelativeToolTip": "HRMS.UI\\Forms\\InitSetupForm.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAswIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T04:57:13.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AddEmployeeForm.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\AddEmployeeForm.cs",
-              "RelativeDocumentMoniker": "HRMS.UI\\Forms\\SubForms\\AddEmployeeForm.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.UI\\Forms\\SubForms\\AddEmployeeForm.cs",
-              "RelativeToolTip": "HRMS.UI\\Forms\\SubForms\\AddEmployeeForm.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAIwFIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T20:51:03.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ScheduleDL.cs",
-              "DocumentMoniker": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\ScheduleDL.cs",
-              "RelativeDocumentMoniker": "HRMS.Library\\DL\\ScheduleDL.cs",
-              "ToolTip": "D:\\Projects\\Second-Semester\\HRMS-Project\\HRMS\\HRMS.Library\\DL\\ScheduleDL.cs",
-              "RelativeToolTip": "HRMS.Library\\DL\\ScheduleDL.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwD0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T20:49:22.809Z"
+              "WhenOpened": "2026-06-06T11:53:46.619Z"
             }
           ]
         }
