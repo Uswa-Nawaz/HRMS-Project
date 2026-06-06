@@ -70,14 +70,14 @@
             this.dgvSchedules = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnAssign = new System.Windows.Forms.Button();
-            this.txtEnd = new System.Windows.Forms.TextBox();
             this.lblEnd = new System.Windows.Forms.Label();
-            this.txtStart = new System.Windows.Forms.TextBox();
             this.lblStart = new System.Windows.Forms.Label();
-            this.txtShift = new System.Windows.Forms.TextBox();
             this.lblShift = new System.Windows.Forms.Label();
             this.txtSchedEmp = new System.Windows.Forms.TextBox();
             this.lblSchedEmp = new System.Windows.Forms.Label();
+            this.cmbShift = new System.Windows.Forms.ComboBox();
+            this.cmbStart = new System.Windows.Forms.ComboBox();
+            this.cmbEnd = new System.Windows.Forms.ComboBox();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.tabMain.SuspendLayout();
@@ -122,7 +122,7 @@
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.Location = new System.Drawing.Point(858, 16);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(80, 30);
+            this.btnLogout.Size = new System.Drawing.Size(80, 35);
             this.btnLogout.TabIndex = 3;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
@@ -207,7 +207,7 @@
             this.btnPromote.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPromote.Location = new System.Drawing.Point(284, 8);
             this.btnPromote.Name = "btnPromote";
-            this.btnPromote.Size = new System.Drawing.Size(130, 28);
+            this.btnPromote.Size = new System.Drawing.Size(160, 28);
             this.btnPromote.TabIndex = 2;
             this.btnPromote.Text = "Promote / Demote";
             this.btnPromote.UseVisualStyleBackColor = true;
@@ -297,7 +297,7 @@
             // 
             this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRefresh.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefresh.Location = new System.Drawing.Point(136, 8);
+            this.btnRefresh.Location = new System.Drawing.Point(170, 8);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(80, 28);
             this.btnRefresh.TabIndex = 1;
@@ -314,7 +314,7 @@
             this.btnAddEmp.ForeColor = System.Drawing.Color.White;
             this.btnAddEmp.Location = new System.Drawing.Point(8, 8);
             this.btnAddEmp.Name = "btnAddEmp";
-            this.btnAddEmp.Size = new System.Drawing.Size(120, 28);
+            this.btnAddEmp.Size = new System.Drawing.Size(150, 28);
             this.btnAddEmp.TabIndex = 0;
             this.btnAddEmp.Text = "+ Add Employee";
             this.btnAddEmp.UseVisualStyleBackColor = false;
@@ -368,7 +368,7 @@
             this.btnDelDept.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelDept.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelDept.ForeColor = System.Drawing.Color.Red;
-            this.btnDelDept.Location = new System.Drawing.Point(407, 10);
+            this.btnDelDept.Location = new System.Drawing.Point(427, 10);
             this.btnDelDept.Name = "btnDelDept";
             this.btnDelDept.Size = new System.Drawing.Size(70, 28);
             this.btnDelDept.TabIndex = 3;
@@ -383,7 +383,7 @@
             this.btnAddDept.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddDept.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddDept.ForeColor = System.Drawing.Color.White;
-            this.btnAddDept.Location = new System.Drawing.Point(329, 10);
+            this.btnAddDept.Location = new System.Drawing.Point(349, 10);
             this.btnAddDept.Name = "btnAddDept";
             this.btnAddDept.Size = new System.Drawing.Size(70, 28);
             this.btnAddDept.TabIndex = 2;
@@ -394,7 +394,7 @@
             // txtDeptName
             // 
             this.txtDeptName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDeptName.Location = new System.Drawing.Point(142, 10);
+            this.txtDeptName.Location = new System.Drawing.Point(162, 10);
             this.txtDeptName.Name = "txtDeptName";
             this.txtDeptName.Size = new System.Drawing.Size(180, 27);
             this.txtDeptName.TabIndex = 1;
@@ -459,7 +459,7 @@
             this.cmbMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMonth.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMonth.FormattingEnabled = true;
-            this.cmbMonth.Location = new System.Drawing.Point(274, 10);
+            this.cmbMonth.Location = new System.Drawing.Point(290, 10);
             this.cmbMonth.Name = "cmbMonth";
             this.cmbMonth.Size = new System.Drawing.Size(110, 28);
             this.cmbMonth.TabIndex = 5;
@@ -472,7 +472,7 @@
             this.btnGenSlip.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenSlip.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenSlip.ForeColor = System.Drawing.Color.White;
-            this.btnGenSlip.Location = new System.Drawing.Point(396, 10);
+            this.btnGenSlip.Location = new System.Drawing.Point(412, 10);
             this.btnGenSlip.Name = "btnGenSlip";
             this.btnGenSlip.Size = new System.Drawing.Size(110, 28);
             this.btnGenSlip.TabIndex = 4;
@@ -483,16 +483,16 @@
             // lblMonth
             // 
             this.lblMonth.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMonth.Location = new System.Drawing.Point(220, 14);
+            this.lblMonth.Location = new System.Drawing.Point(230, 14);
             this.lblMonth.Name = "lblMonth";
-            this.lblMonth.Size = new System.Drawing.Size(55, 20);
+            this.lblMonth.Size = new System.Drawing.Size(65, 20);
             this.lblMonth.TabIndex = 2;
             this.lblMonth.Text = "Month:";
             // 
             // txtPayEmpID
             // 
             this.txtPayEmpID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPayEmpID.Location = new System.Drawing.Point(102, 10);
+            this.txtPayEmpID.Location = new System.Drawing.Point(112, 10);
             this.txtPayEmpID.Name = "txtPayEmpID";
             this.txtPayEmpID.Size = new System.Drawing.Size(110, 27);
             this.txtPayEmpID.TabIndex = 1;
@@ -503,7 +503,7 @@
             this.lblPayEmp.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblPayEmp.Location = new System.Drawing.Point(8, 14);
             this.lblPayEmp.Name = "lblPayEmp";
-            this.lblPayEmp.Size = new System.Drawing.Size(100, 20);
+            this.lblPayEmp.Size = new System.Drawing.Size(110, 20);
             this.lblPayEmp.TabIndex = 0;
             this.lblPayEmp.Text = "Employee ID:";
             // 
@@ -623,12 +623,12 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
+            this.panel2.Controls.Add(this.cmbEnd);
+            this.panel2.Controls.Add(this.cmbStart);
+            this.panel2.Controls.Add(this.cmbShift);
             this.panel2.Controls.Add(this.btnAssign);
-            this.panel2.Controls.Add(this.txtEnd);
             this.panel2.Controls.Add(this.lblEnd);
-            this.panel2.Controls.Add(this.txtStart);
             this.panel2.Controls.Add(this.lblStart);
-            this.panel2.Controls.Add(this.txtShift);
             this.panel2.Controls.Add(this.lblShift);
             this.panel2.Controls.Add(this.txtSchedEmp);
             this.panel2.Controls.Add(this.lblSchedEmp);
@@ -645,7 +645,7 @@
             this.btnAssign.FlatAppearance.BorderSize = 0;
             this.btnAssign.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAssign.ForeColor = System.Drawing.Color.White;
-            this.btnAssign.Location = new System.Drawing.Point(554, 10);
+            this.btnAssign.Location = new System.Drawing.Point(674, 10);
             this.btnAssign.Name = "btnAssign";
             this.btnAssign.Size = new System.Drawing.Size(75, 28);
             this.btnAssign.TabIndex = 8;
@@ -653,45 +653,22 @@
             this.btnAssign.UseVisualStyleBackColor = false;
             this.btnAssign.Click += new System.EventHandler(this.btnAssign_Click);
             // 
-            // txtEnd
-            // 
-            this.txtEnd.Location = new System.Drawing.Point(476, 10);
-            this.txtEnd.Name = "txtEnd";
-            this.txtEnd.Size = new System.Drawing.Size(70, 27);
-            this.txtEnd.TabIndex = 7;
-            // 
             // lblEnd
             // 
-            this.lblEnd.Location = new System.Drawing.Point(442, 14);
+            this.lblEnd.Location = new System.Drawing.Point(505, 14);
             this.lblEnd.Name = "lblEnd";
             this.lblEnd.Size = new System.Drawing.Size(40, 18);
             this.lblEnd.TabIndex = 6;
             this.lblEnd.Text = "End:";
             // 
-            // txtStart
-            // 
-            this.txtStart.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStart.Location = new System.Drawing.Point(364, 10);
-            this.txtStart.Name = "txtStart";
-            this.txtStart.Size = new System.Drawing.Size(70, 27);
-            this.txtStart.TabIndex = 5;
-            // 
             // lblStart
             // 
             this.lblStart.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStart.Location = new System.Drawing.Point(322, 14);
+            this.lblStart.Location = new System.Drawing.Point(345, 14);
             this.lblStart.Name = "lblStart";
             this.lblStart.Size = new System.Drawing.Size(44, 18);
             this.lblStart.TabIndex = 4;
             this.lblStart.Text = "Start:";
-            // 
-            // txtShift
-            // 
-            this.txtShift.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtShift.Location = new System.Drawing.Point(204, 10);
-            this.txtShift.Name = "txtShift";
-            this.txtShift.Size = new System.Drawing.Size(110, 27);
-            this.txtShift.TabIndex = 3;
             // 
             // lblShift
             // 
@@ -718,6 +695,33 @@
             this.lblSchedEmp.Size = new System.Drawing.Size(65, 18);
             this.lblSchedEmp.TabIndex = 0;
             this.lblSchedEmp.Text = "Emp ID:";
+            // 
+            // cmbShift
+            // 
+            this.cmbShift.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbShift.FormattingEnabled = true;
+            this.cmbShift.Location = new System.Drawing.Point(204, 10);
+            this.cmbShift.Name = "cmbShift";
+            this.cmbShift.Size = new System.Drawing.Size(130, 28);
+            this.cmbShift.TabIndex = 9;
+            // 
+            // cmbStart
+            // 
+            this.cmbStart.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbStart.FormattingEnabled = true;
+            this.cmbStart.Location = new System.Drawing.Point(393, 10);
+            this.cmbStart.Name = "cmbStart";
+            this.cmbStart.Size = new System.Drawing.Size(100, 28);
+            this.cmbStart.TabIndex = 10;
+            // 
+            // cmbEnd
+            // 
+            this.cmbEnd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbEnd.FormattingEnabled = true;
+            this.cmbEnd.Location = new System.Drawing.Point(546, 10);
+            this.cmbEnd.Name = "cmbEnd";
+            this.cmbEnd.Size = new System.Drawing.Size(100, 28);
+            this.cmbEnd.TabIndex = 11;
             // 
             // AdminDashboard
             // 
@@ -805,12 +809,12 @@
         private System.Windows.Forms.TextBox txtSchedEmp;
         private System.Windows.Forms.Label lblShift;
         private System.Windows.Forms.Label lblStart;
-        private System.Windows.Forms.TextBox txtShift;
-        private System.Windows.Forms.TextBox txtStart;
-        private System.Windows.Forms.TextBox txtEnd;
         private System.Windows.Forms.Label lblEnd;
         private System.Windows.Forms.Button btnAssign;
         private System.Windows.Forms.DataGridView dgvSchedules;
         private System.Windows.Forms.ComboBox cmbMonth;
+        private System.Windows.Forms.ComboBox cmbShift;
+        private System.Windows.Forms.ComboBox cmbStart;
+        private System.Windows.Forms.ComboBox cmbEnd;
     }
 }

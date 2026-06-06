@@ -173,6 +173,7 @@
             this.lblError.TabIndex = 8;
             this.lblError.Text = "(empty)";
             this.lblError.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblError.Click += new System.EventHandler(this.lblError_Click);
             // 
             // btnLogin
             // 

@@ -130,5 +130,10 @@ namespace HRMS.UI.Forms
         {
             chkShow.Checked = !chkShow.Checked;
         }
+
+        private void lblError_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

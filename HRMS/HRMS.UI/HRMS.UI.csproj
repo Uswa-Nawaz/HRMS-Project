@@ -79,6 +79,12 @@
     <Compile Include="Forms\SubForms\PromoteDemoteForm.Designer.cs">
       <DependentUpon>PromoteDemoteForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\SubForms\SalarySlipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SubForms\SalarySlipForm.Designer.cs">
+      <DependentUpon>SalarySlipForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\SubForms\UpdateEmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SubForms\PromoteDemoteForm.resx">
       <DependentUpon>PromoteDemoteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubForms\SalarySlipForm.resx">
+      <DependentUpon>SalarySlipForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SubForms\UpdateEmployeeForm.resx">
       <DependentUpon>UpdateEmployeeForm.cs</DependentUpon>

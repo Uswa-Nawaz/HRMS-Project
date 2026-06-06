@@ -51,6 +51,7 @@ namespace HRMS.UI.Forms
             LoadLeaves();
             LoadSchedules();
             LoadMonths();
+            LoadScheduleDropdowns();
 
         }
 
@@ -184,27 +185,13 @@ namespace HRMS.UI.Forms
                 return;
             }
 
-            string empID = dgvEmployees.SelectedRows[0]
-                             .Cells["EmpID"].Value.ToString();
-            string current = dgvEmployees.SelectedRows[0]
-                             .Cells["Designation"].Value.ToString();
+            string empID = dgvEmployees.SelectedRows[0].Cells["EmpID"].Value.ToString();
+            string name = dgvEmployees.SelectedRows[0].Cells["Name"].Value.ToString();
+            string current = dgvEmployees.SelectedRows[0].Cells["Designation"].Value.ToString();
 
-            string newDesig = Microsoft.VisualBasic.Interaction.InputBox(
-                "Employee: " + empID +
-                "\nCurrent designation: " + current +
-                "\n\nEnter new designation:",
-                "Promote / Demote", current);
-
-            if (newDesig.Trim() == "") return;
-
-            string result = EmployeeDL.UpdateDesignation(empID, newDesig.Trim());
-            MessageBox.Show(result == "True" ? "Designation updated!"
-                                             : result,
-                            result == "True" ? "Done" : "Error",
-                            MessageBoxButtons.OK,
-                            result == "True" ? MessageBoxIcon.Information
-                                             : MessageBoxIcon.Error);
-            LoadEmployees();
+            PromoteDemoteForm form = new PromoteDemoteForm(empID, name, current);
+            form.ShowDialog();
+            LoadEmployees(); // refresh grid either way
         }
 
         // ═══════════════════════════════════════════
@@ -288,18 +275,18 @@ namespace HRMS.UI.Forms
         {
             string empID = txtPayEmpID.Text.Trim();
             string month = cmbMonth.SelectedItem != null
-               ? cmbMonth.SelectedItem.ToString()
-               : "";
+                           ? cmbMonth.SelectedItem.ToString()
+                           : "";
 
             if (empID == "" || month == "")
             {
-                MessageBox.Show("Please enter both Employee ID and Month.",
+                MessageBox.Show("Please enter Employee ID and select a Month.",
                                 "Missing Info", MessageBoxButtons.OK,
                                 MessageBoxIcon.Warning);
                 return;
             }
 
-            // Get salary from DB
+            // Get employee data
             DataTable dt = empDL.GetByID(empID);
             if (dt.Rows.Count == 0)
             {
@@ -310,7 +297,10 @@ namespace HRMS.UI.Forms
             }
 
             double salary = Convert.ToDouble(dt.Rows[0]["Salary"]);
+            string name = dt.Rows[0]["Name"].ToString();
+            string dept = dt.Rows[0]["DeptName"].ToString();
 
+            // Build and save the slip
             SalarySlipBL slip = new SalarySlipBL();
             slip.SetEmpID(empID);
             slip.SetMonth(month);
@@ -320,12 +310,15 @@ namespace HRMS.UI.Forms
 
             if (result == "True")
             {
-                MessageBox.Show("Salary slip generated!\nGross: " + salary +
-                                "\nTax (7%): " + slip.GetTaxAmount() +
-                                "\nNet: " + slip.GetNetSalary(),
-                                "Slip Generated",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Information);
+                // Show the professional slip form
+                SalarySlipForm slipForm = new SalarySlipForm(
+                    empID, name, dept, month,
+                    slip.GetGrossSalary(),
+                    slip.GetTaxAmount(),
+                    slip.GetNetSalary());
+                slipForm.ShowDialog();
+
+                // Refresh payroll grid to show the new record
                 LoadPayroll(empID);
             }
             else
@@ -334,6 +327,7 @@ namespace HRMS.UI.Forms
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Warning);
             }
+
         }
 
         private void LoadMonths()
@@ -414,24 +408,57 @@ namespace HRMS.UI.Forms
             StyleGrid(dgvSchedules);
         }
 
+        private void LoadScheduleDropdowns()
+        {
+            cmbShift.Items.AddRange(new string[]
+            {
+        "Morning Shift",
+        "Evening Shift",
+        "Night Shift"
+            });
+            cmbShift.SelectedIndex = 0;
+
+            cmbStart.Items.AddRange(new string[]
+            {
+        "08:00 AM", "09:00 AM", "10:00 AM", "11:00 AM",
+        "12:00 PM", "01:00 PM", "02:00 PM", "03:00 PM",
+        "04:00 PM", "05:00 PM"
+            });
+            cmbStart.SelectedIndex = 0;
+
+            cmbEnd.Items.AddRange(new string[]
+            {
+        "04:00 PM", "05:00 PM", "06:00 PM", "07:00 PM",
+        "08:00 PM", "09:00 PM", "10:00 PM", "11:00 PM",
+        "12:00 AM"
+            });
+            cmbEnd.SelectedIndex = 0;
+        }
+
         private void btnAssign_Click(object sender, EventArgs e)
         {
-            string result = ScheduleDL.AssignSchedule(
-                txtSchedEmp.Text.Trim(),
-                txtShift.Text.Trim(),
-                txtStart.Text.Trim(),
-                txtEnd.Text.Trim());
+            string empID = txtSchedEmp.Text.Trim();
+
+            if (empID == "")
+            {
+                MessageBox.Show("Please enter an Employee ID.",
+                                "Missing Info", MessageBoxButtons.OK,
+                                MessageBoxIcon.Warning);
+                return;
+            }
+
+            string shift = cmbShift.SelectedItem.ToString();
+            string start = cmbStart.SelectedItem.ToString();
+            string end = cmbEnd.SelectedItem.ToString();
+
+            string result = ScheduleDL.AssignSchedule(empID, shift, start, end);
 
             if (result == "True")
             {
                 MessageBox.Show("Schedule assigned successfully!",
                                 "Done", MessageBoxButtons.OK,
                                 MessageBoxIcon.Information);
-                // Clear fields
                 txtSchedEmp.Clear();
-                txtShift.Clear();
-                txtStart.Clear();
-                txtEnd.Clear();
                 LoadSchedules();
             }
             else

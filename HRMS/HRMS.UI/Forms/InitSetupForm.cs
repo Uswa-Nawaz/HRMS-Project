@@ -123,5 +123,10 @@ namespace HRMS.UI.Forms
             if (confirm == DialogResult.Yes)
                 Application.Exit();
         }
+
+        private void lblError_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
