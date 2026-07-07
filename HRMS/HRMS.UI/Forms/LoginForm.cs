@@ -141,5 +141,10 @@ namespace HRMS.UI.Forms
         {
 
         }
+
+        private void lblSystem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

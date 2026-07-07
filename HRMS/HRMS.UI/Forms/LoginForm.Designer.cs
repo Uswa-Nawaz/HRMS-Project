@@ -82,6 +82,7 @@
             this.lblSystem.TabIndex = 1;
             this.lblSystem.Text = "HRMS";
             this.lblSystem.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSystem.Click += new System.EventHandler(this.lblSystem_Click);
             // 
             // picIcon
             // 

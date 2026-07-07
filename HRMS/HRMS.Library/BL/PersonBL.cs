@@ -24,7 +24,7 @@ namespace HRMS.Library.BL
             address = "";
         }
 
-        // ---( Getters )---
+        // ---( Getters )--- ]
         public string GetName() { return name; }
         public string GetEmail() { return email; }
         public string GetPhone() { return phone; }

@@ -64,6 +64,7 @@
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(402, 117);
             this.pnlHeader.TabIndex = 0;
+            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
             // 
             // label1
             // 

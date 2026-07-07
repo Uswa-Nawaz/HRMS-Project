@@ -128,5 +128,10 @@ namespace HRMS.UI.Forms
         {
 
         }
+
+        private void pnlHeader_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
