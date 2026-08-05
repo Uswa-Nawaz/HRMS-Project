@@ -119,19 +119,19 @@ as `Validations.PasswordCheck()` with no object instantiation
 
 ### Admin Dashboard
 
-!\[Admin Dashboard](screenshots/Admin-dashboard.png)
+![Admin Dashboard](screenshots/Admin-dashboard.png)
 
 ### Leave Management
 
-!\[Leave Management](screenshots/Leaves.png)
+![Leave Management](screenshots/Leaves.png)
 
 ### Payroll / Salary Slip
 
-!\[Payroll](screenshots/Payroll.png)
+![Payroll](screenshots/Payroll.png)
 
 ### Work Schedules
 
-!\[Work Schedules](screenshots/Schedule.png)
+![Work Schedules](screenshots/Schedule.png)
 
 ## Author
 
